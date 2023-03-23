@@ -227,6 +227,12 @@ footer .culum1 h1{
     margin-bottom: 0;
 }
 @media only screen and (max-width:1439px){
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
  .container{
     display: flex;
     flex-direction: column;
@@ -357,5 +363,15 @@ footer .culum2 ,.culum3{
     height: 3rem;
     margin-right: 0.5rem;
     border-radius: 50%;
+}
+footer{
+    width: 22rem;
+    
+}
+footer h3{
+    width: 90%;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 1rem;
 }
 }
